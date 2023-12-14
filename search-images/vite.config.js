@@ -24,7 +24,7 @@ export default defineConfig(({command}) => {
       },
       outDir: '../dist',
     },
-    base: '/wt-js-search-images',
+    base: '/search-images',
     plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
   };
 });
